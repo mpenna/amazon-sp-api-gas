@@ -1,0 +1,46 @@
+{
+  "name": "amazon-sp-api",
+  "version": "0.1.4-alpha.0",
+  "private": true,
+  "description": "Amazon Selling Partner API client for Google Apps Script",
+  "main": "index.js",
+  "directories": {
+    "lib": "./lib/"
+  },
+  "keywords": [
+    "amazon",
+    "sellingpartner",
+    "sp",
+    "sellercentral",
+    "amazon sellingpartner api",
+    "amazon sp api",
+    "selling partner",
+    "amazon sp api client",
+    "amazon selling partner",
+    "amazon selling partner api",
+    "mws",
+    "amazon mws"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "core-js": "3.33.0",
+    "crypto-js": "^4.1.1",
+    "fast-xml-parser": "^4.2.6",
+    "iconv-lite": "^0.6.3",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.72",
+    "@types/node": "^20.4.5",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "mocha": "^10.2.0",
+    "moment": "^2.29.4"
+  },
+  "scripts": {
+    "test": "mocha --config ./test/.mocharc.js"
+  },
+  "types": "./lib/typings/index.d.ts",
+  "packageManager": "yarn@1.22.19"
+}
