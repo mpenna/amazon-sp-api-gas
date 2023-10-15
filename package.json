@@ -1,5 +1,5 @@
 {
-  "name": "amazon-sp-api",
+  "name": "amazon-sp-api-gas",
   "version": "0.1.4-alpha.0",
   "private": true,
   "description": "Amazon Selling Partner API client for Google Apps Script",

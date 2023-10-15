@@ -141,7 +141,7 @@ import {
   GetItemOffersResponse,
 } from "./operations/productPricing";
 
-declare module 'amazon-sp-api' {
+declare module 'amazon-sp-api-gas' {
   export class SellingPartner {
     constructor(config: Config)
 
